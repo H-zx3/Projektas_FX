@@ -1,10 +1,15 @@
 import pandas as pd
 import yfinance as yf
+# Pivot Point (PP) = (High + Low + Close) / 3
+# Support 1 (S1) = (2 * PP) - High
+# Resistance 1 (R1) = (2 * PP) - Low
+# Support 2 (S2) = PP - (High - Low)
+# Resistance 2 (R2) = PP + (High - Low)
 
 #didziausia problema su pivot points indikatorium, jog sis yra apskaiciuojamas pagal formule ir praeitos savaites indicatoriaus duomenys turi buti pateikti 
 # naujai.
 #  
-weekly_data = yf.download("BTC-USD", start="2023-01-02", end="2023-02-13", interval = "1wk")
+weekly_data = yf.download("EURJPY=X", start="2023-01-02", end="2023-08-13", interval = "1wk")
 weekly_data.drop(["Adj Close", "Volume"], inplace=True, axis=1)
 weekly_data
 
@@ -12,7 +17,7 @@ print(weekly_data)
 
 #...
 
-hourly_data = yf.download("BTC-USD", start="2023-01-25", end="2023-02-07", interval = "1h")
+hourly_data = yf.download("EURJPY=X", start="2023-01-23", end="2023-08-13", interval = "1h")
 hourly_data.drop(["Adj Close", "Volume"], inplace=True, axis=1)
 hourly_data
 
