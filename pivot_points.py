@@ -51,7 +51,7 @@ weekly_data
 
 print(weekly_data)
 
-#...
+#....
 
 weekly_data.dropna(inplace=True)
 weekly_data = weekly_data[["PP", "S1", "S2", "R1", "R2"]]
