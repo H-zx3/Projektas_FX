@@ -1,7 +1,7 @@
 from backtesting import Backtest, Strategy
 # from backtesting.test import GOOG
 from pivot_points import plot_data
-from backtesting.lib import crossover # sutaupo laiko isimportuojam prebuilt crossover strategies. 
+from backtesting.lib import crossover # sutaupo laiko isimportuojam prebuilt crossover strategies
 import talib
 
 print(plot_data)
