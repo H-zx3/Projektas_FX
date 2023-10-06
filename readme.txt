@@ -1,4 +1,5 @@
-Atkreipkite dėmesį, kad šis projektas nesuteikia asmeninės investavimo patarimų, ir aš nesu kvalifikuotas licencijuotas investavimo patarėjas. Visi čia rasti duomenys skirti tik pramogai arba švietimo projektų tikslams ir neturėtų būti traktuojami kaip asmeniniai investavimo, prekevimo patarimai.
+Atkreipkite dėmesį, kad šis projektas nesuteikia asmeninės investavimo patarimų, ir aš nesu kvalifikuotas licencijuotas investavimo patarėjas. Visi čia rasti 
+duomenys skirti tik pramogai arba švietimo projektų tikslams ir neturėtų būti traktuojami kaip asmeniniai investavimo, prekevimo patarimai.
 
 Projekto idėja kilo, kadangi turiu asmeninę prekybos strategiją FOREX finansų rinkoje,
  kurią norėčiau išbandyti su "backtesting" ir pažiūrėti, kokią metinę grąžą galėčiau gauti, 
