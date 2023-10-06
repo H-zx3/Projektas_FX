@@ -1,6 +1,6 @@
  Projekto idėja kilo, kadangi turiu asmeninę prekybos strategiją FOREX finansų rinkoje,
  kurią norėčiau išbandyti su "backtesting" ir pažiūrėti, kokią metinę grąžą galėčiau gauti, 
- jei ją automatizuociau naudojant Python. Pradėjęs daryti projektą supratau, kad dėl laiko 
+ jei ją automatizuociau naudojant Python.? Pradėjęs daryti projektą supratau, kad dėl laiko 
  trūkumo reikia sutrumpinti visą projektą. Palikau tik kelis strategijos pradinius komponentus, 
  kuriuos panaudojau. 
  
@@ -9,7 +9,16 @@
  2. Panaudojau industrijoje plačiai naudojamą indikatorių "pivot points". Jo formulę, kaip jis apskaičiuojamas, paliksiu apraše apačioje."
 
 
+Rekomenduotina failų paleidimo eiga:
 
+1.Pirmiausia pasileisti/ziureti cotEURJPY.ipynb faila krypties nustatymui.
+
+2.Tada paleisti pivot-points.py - tai bus mūsų pagrindinis indikatorius, kurį naudosime savo strategijoje. Failas pivot_point_display.ipynb yra skirtas 
+detaliam pivot points sukūrimui, užtikrinant, jog nebūtų jokių klaidų, kurios iškraipytų mūsų rezultatus, buvo sukurtas pirma ir tik po to viskas perkelta i funkcija. 
+
+3.Galiausiai pasileisti Strategy1.ipynb, kuriame aprašyta pati pirkimo strategija etc.
+ 
+ 
  
  Terminologija:
 
